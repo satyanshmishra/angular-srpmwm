@@ -1,3 +1,11 @@
 p {
   font-family: Lato;
 }
+.users {
+  font-size: large;
+  font-weight: 200;
+}
+.badge {
+  font-size: larger;
+  color: blue;
+}
