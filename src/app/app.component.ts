@@ -7,7 +7,6 @@ import { User } from './app.user';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  isTrue: boolean = true;
   users = Un;
- 
-  }
-
+}
