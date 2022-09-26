@@ -1,18 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { Un } from './app.data';
-import { User } from './app.user';
+import { Component } from '@angular/core';
+
 @Component({
-  selector: 'my-app',
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  isTrue: boolean;
-  users = Un;
-  Expand(): any {
-    this.isTrue = false;
-  }
-  Collapse(): any {
-    this.isTrue = true;
-  }
+  title = 'Tour of Heroes';
 }

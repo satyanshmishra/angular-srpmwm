@@ -1,11 +1,3 @@
-<h2>My Users</h2>
-<ul class="users">
-  <div *ngIf="!isTrue">
-    <button *ngIf="isTrue">Expand</button>
-    <li *ngFor="let user of users">
-      <span class="badge">{{ user.id }} </span>{{ user.name }}
-    </li>
-  </div>
-  <button *ngIf="isTrue" (click)="Expand()">Expand</button>
-  <button *ngIf="!isTrue" (click)="Collapse()">Collapse</button>
-</ul>
+<h1>{{ title }}</h1>
+<app-heroes></app-heroes>
+<p>heroes are working</p>
